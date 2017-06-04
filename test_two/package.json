@@ -1,0 +1,21 @@
+{
+  "name": "test_two",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "author": "Nishant Shah",
+  "license": "MIT",
+  "dependencies": {
+    "stats.js": "^0.17.0",
+    "three": "^0.85.2",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "build": "webpack --progress --watch --config build/webpack.config.js",
+    "serve": "serve"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1"
+  }
+}
